@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+   
+block style 
+    style
+      include ../static/style.css
+
+block content
+   Section#intro 
+       div.large Welcome To Dance World 
+       div.small Live Life To Dance
+   Section#mission
+          h2 Our mission
+          div.card
+            h3 Dance Expert
+            div.card-box
+                div.card-img
+                    img(src="/static/by.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+          div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/th.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+          div.card 
+             h3 This Get guidline
+             div.card-box
+                div.card-img
+                    img(src="/static/by.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe    
+   Section#sponser
+       | OUR SPONSERS
+       div.lg
+         div.mg 
+          img(src="/static/ap.jpg")
+         div.mg 
+           img(src="/static/op.jpg")
+         div.mg 
+           img(src="/static/hp.jpg")
+            

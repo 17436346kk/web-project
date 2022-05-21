@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  *{
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ #navbar{
+     display: flex;
+     flex-direction: row;
+     background-color:#387af3;
+     height: 70px;
+ }
+     
+ a{
+    text-decoration: none;
+    padding: 30px 40px;
+    color:white;
+    font-size: 1.5rem;
+}
+li{
+    margin-top: 20px;
+}
+
+
+
+li{
+    list-style: none;
+    
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: center /cover url("/static/bg.jpg");
+    align-items: center;
+    color:whitesmoke;
+     height:400px;
+     font-family: 'Abril Fatface', cursive;
+     font-size:65px;
+}
+#sponser{
+   background-color: rgb(63, 142, 231);
+   text-align: center;
+   color: antiquewhite;
+   padding-top: 30px;
+   height:300px;
+   font-family: 'Abril Fatface', cursive;
+}
+#mission{
+    text-align: center;
+    color: rgb(12, 7, 0);
+    padding-top: 10px;
+    height:250px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+    .small{
+        font-size: 40px;
+        color:rgb(63, 142, 231);
+    }
+    .card{
+        display:inline-block;
+        border: 2px solid black;
+        border-radius: 20px;
+        margin: 5px 20px;
+        width: 25%;
+        height: 180px;
+       
+    }
+    .card h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #logo{
+        display: flex;
+        color: white;
+        
+
+    }
+    #logo img{
+        height: inherit;
+
+    }
+    .c{
+        margin-top: 18px;
+        font-size: 23px;
+        font-family: 'Abril Fatface', cursive;
+        margin-right: 50px;
+    }
+    .card-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card-img{
+        height: 131px;
+        padding: 0 14px;
+        margin: 5px 9px;
+    }
+    .card-img img{
+        height: inherit; 
+    }
+    .lg{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+    }
+    .mg img{
+        height: inherit;
+    }
+    .mg{
+        margin:15px 20px;
+    }
+    #foot{
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        padding-top: 40px;
+        height: 100px;
+
+    }

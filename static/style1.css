@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+.frm{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.myinput{ 
+    margin: 5px;
+    width: 60%;
+    padding: 10px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.btn{
+    margin: 10px auto;
+     padding: 5px 15px;
+     background:rgb(7, 110, 228);
+     color: beige;
+     font-size: 15px;
+     font-weight: bold;
+     border: 2px solid rgb(7, 110, 228);
+     border-radius: 5px;
+     cursor: pointer;
+     margin-top: 10px;
+}
+.container{
+    min-height: 100vh;
+}
+h1{
+    margin-top: 30px;
+}
